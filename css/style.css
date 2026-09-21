@@ -105,3 +105,15 @@ footer {
     font-weight: 700;
     color: #172a1f;
 }
+
+/* =========================================
+   Hero Introduction
+   ========================================= */
+
+.hero-introduction {
+    max-width: 680px;
+    margin-top: 1.5rem;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #4b5f52;
+}
