@@ -89,3 +89,19 @@ footer {
     letter-spacing: -0.02em;
     color: #166534;
 }
+
+/* =========================================
+   Hero Headline
+   ========================================= */
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+    color: #172a1f;
+}
