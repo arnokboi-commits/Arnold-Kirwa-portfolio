@@ -450,3 +450,278 @@ Ctrl + End
         padding: 1.5rem;
     }
 }
+
+/* =========================================
+   Skills Section
+   ========================================= */
+
+#skills {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.skill-category {
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #dce8df;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(23, 42, 31, 0.06);
+}
+
+.skill-category h3 {
+    margin-bottom: 1.25rem;
+    color: #172a1f;
+    font-size: 1.3rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill-list span {
+    padding: 0.5rem 0.8rem;
+    border-radius: 999px;
+    background-color: #f0fdf4;
+    color: #166534;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+/* Skills responsive layout */
+
+@media (max-width: 768px) {
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-category {
+        padding: 1.5rem;
+    }
+}
+
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+
+/* Skills responsive layout */
+
+@media (max-width: 768px) {
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-category {
+        padding: 1.5rem;
+    }
+}
+
+/* =========================================
+   Education Section
+   ========================================= */
+
+#education {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.education-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.education-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.education-item {
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #dce8df;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(23, 42, 31, 0.06);
+}
+
+.education-type {
+    margin-bottom: 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #166534;
+}
+
+.education-item h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    color: #172a1f;
+}
+
+.education-item p:last-child {
+    color: #4b5f52;
+    line-height: 1.7;
+}
+
+.education-item strong {
+    color: #166534;
+}
+
+/* Education responsive layout */
+
+@media (max-width: 768px) {
+
+    .education-list {
+        grid-template-columns: 1fr;
+    }
+
+    .education-item {
+        padding: 1.5rem;
+    }
+}
+
+/* =========================================
+   Contact Section
+   ========================================= */
+
+#contact {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.contact-item {
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #dce8df;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(23, 42, 31, 0.06);
+}
+
+.contact-item h3 {
+    margin-bottom: 0.75rem;
+    color: #172a1f;
+    font-size: 1.2rem;
+}
+
+.contact-item a,
+.contact-item p {
+    color: #166534;
+    line-height: 1.6;
+}
+
+.contact-item a {
+    font-weight: 600;
+}
+
+.contact-item a:hover {
+    color: #14532d;
+    text-decoration: underline;
+}
+
+/* Contact responsive layout */
+
+@media (max-width: 768px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-item {
+        padding: 1.5rem;
+    }
+}
+
+/* =========================================
+   Navigation
+   ========================================= */
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dce8df;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.site-name {
+    color: #172a1f;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: #4b5f52;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #166534;
+}
+
+/* Navigation responsive layout */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.9rem 1.2rem;
+    }
+}
