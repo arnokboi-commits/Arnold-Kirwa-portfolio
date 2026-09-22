@@ -374,3 +374,79 @@ Ctrl + End
         padding: 1.5rem;
     }
 }
+
+/* =========================================
+   About Section
+   ========================================= */
+
+#about {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.about-introduction {
+    max-width: 720px;
+}
+
+.about-introduction p {
+    margin-bottom: 1.25rem;
+    color: #4b5f52;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.about-focus {
+    padding: 2rem;
+    background-color: #f5faf7;
+    border: 1px solid #dce8df;
+    border-radius: 16px;
+}
+
+.about-focus h3 {
+    margin-bottom: 1.25rem;
+    color: #172a1f;
+    font-size: 1.35rem;
+}
+
+.about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.about-skills span {
+    padding: 0.5rem 0.8rem;
+    border-radius: 999px;
+    background-color: #ffffff;
+    border: 1px solid #dce8df;
+    color: #166534;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+/* About responsive layout */
+
+@media (max-width: 768px) {
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-focus {
+        padding: 1.5rem;
+    }
+}
