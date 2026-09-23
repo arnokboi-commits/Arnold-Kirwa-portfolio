@@ -725,3 +725,89 @@ nav ul a:hover {
         gap: 0.9rem 1.2rem;
     }
 }
+
+#cv-request {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.cv-request-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cv-request-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #dce8df;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(23, 42, 31, 0.06);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #172a1f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border: 1px solid #cbd9cf;
+    border-radius: 8px;
+    font: inherit;
+    color: #172a1f;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #166534;
+    box-shadow: 0 0 0 3px rgba(22, 101, 52, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+.cv-request-form button {
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+#cv-request-success {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.success-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.success-container h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: #172a1f;
+}
+
+.success-container p:not(.section-label) {
+    margin-bottom: 2rem;
+    color: #4b5f52;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}

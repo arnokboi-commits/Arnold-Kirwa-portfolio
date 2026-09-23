@@ -53,11 +53,13 @@
                     View My Projects
                 </a>
 
-                <a href="cv/arnold-kirwa-cv.pdf" class="btn btn-secondary" download>
-                    Download CV
-                </a>
+                <a href="#cv-request" class="btn btn-secondary">
+    Request CV
+</a>
 
-                <a href="#contact" class="btn btn-secondary">
+                
+
+            <a href="#contact" class="btn btn-secondary">
                     Contact Me
                 </a>
             </div>
@@ -446,6 +448,73 @@
             </article>
 
         </div>
+
+    </div>
+
+</section>
+
+<section id="cv-request">
+
+    <div class="cv-request-container">
+
+        <div class="section-heading">
+            <p class="section-label">CV REQUEST</p>
+
+            <h2>Request My CV</h2>
+
+            <p>
+                Please submit your details and reason for requesting my CV.
+                I will review your request and get back to you.
+            </p>
+        </div>
+
+        <form
+    action="https://formspree.io/f/xkjgrlby"
+    method="POST"
+    class="cv-request-form"
+>
+    <input type="hidden" name="_next" value="https://arnokboi-commits.github.io/Arnold-Kirwa-portfolio/cv-request-success.html">
+
+            
+            
+        
+            
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="reason">Why would you like my CV?</label>
+                <textarea
+                    id="reason"
+                    name="reason"
+                    rows="5"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                Submit CV Request
+            </button>
+
+        </form>
 
     </div>
 
